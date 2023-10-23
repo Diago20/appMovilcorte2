@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".parcial2mostrar">
+
+
+  <TextView
+      android:id="@+id/to"
+      android:layout_width="101dp"
+      android:layout_height="wrap_content"
+      android:text="Total"
+      app:layout_constraintEnd_toStartOf="@+id/total2"
+      app:layout_constraintTop_toBottomOf="@+id/im" />
+
+  <TextView
+      android:id="@+id/totalGeneral"
+      android:layout_width="102dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="52dp"
+      android:layout_marginEnd="4dp"
+      android:text="               "
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/impuesto" />
+
+  <TextView
+      android:id="@+id/im"
+      android:layout_width="101dp"
+      android:layout_height="wrap_content"
+      android:text="Impuesto"
+      app:layout_constraintEnd_toStartOf="@+id/total2"
+      app:layout_constraintTop_toBottomOf="@+id/va" />
+
+  <TextView
+      android:id="@+id/impuesto"
+      android:layout_width="102dp"
+      android:layout_height="wrap_content"
+      android:text="               "
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/subtotal" />
+
+  <TextView
+      android:id="@+id/va"
+      android:layout_width="101dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="148dp"
+      android:text="Subtotal               "
+      app:layout_constraintEnd_toStartOf="@+id/total2"
+      app:layout_constraintTop_toBottomOf="@+id/valor1" />
+
+  <TextView
+      android:id="@+id/subtotal"
+      android:layout_width="102dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="148dp"
+      android:text="               "
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/total1" />
+
+  <TextView
+      android:id="@+id/nombre7"
+      android:layout_width="101dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="116dp"
+      android:text="               "
+      app:layout_constraintEnd_toStartOf="@+id/cantidad2"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/nombre1" />
+
+  <TextView
+      android:id="@+id/valor7"
+      android:layout_width="101dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="116dp"
+      android:text="               "
+      app:layout_constraintEnd_toStartOf="@+id/total2"
+      app:layout_constraintTop_toBottomOf="@+id/valor1" />
+
+  <TextView
+      android:id="@+id/total7"
+      android:layout_width="102dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="116dp"
+      android:text="               "
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/total1" />
+
+  <TextView
+      android:id="@+id/cantidad7"
+      android:layout_width="102dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="116dp"
+      android:text="               "
+      app:layout_constraintEnd_toStartOf="@+id/valor2"
+      app:layout_constraintTop_toBottomOf="@+id/cantidad1" />
+
+  <TextView
+      android:id="@+id/nombre5"
+      android:layout_width="101dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="84dp"
+      android:text="               "
+      app:layout_constraintEnd_toStartOf="@+id/cantidad2"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/nombre1" />
+
+  <TextView
+      android:id="@+id/valor6"
+      android:layout_width="101dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="84dp"
+      android:text="               "
+      app:layout_constraintEnd_toStartOf="@+id/total2"
+      app:layout_constraintTop_toBottomOf="@+id/valor1" />
+
+  <TextView
+      android:id="@+id/total6"
+      android:layout_width="102dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="84dp"
+      android:text="               "
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/total1" />
+
+  <TextView
+      android:id="@+id/cantidad5"
+      android:layout_width="102dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="84dp"
+      android:text="               "
+      app:layout_constraintEnd_toStartOf="@+id/valor2"
+      app:layout_constraintTop_toBottomOf="@+id/cantidad1" />
+
+  <TextView
+      android:id="@+id/nombre4"
+      android:layout_width="101dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="52dp"
+      android:text="               "
+      app:layout_constraintEnd_toStartOf="@+id/cantidad2"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/nombre1" />
+
+  <TextView
+      android:id="@+id/valor4"
+      android:layout_width="101dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="52dp"
+      android:text="               "
+      app:layout_constraintEnd_toStartOf="@+id/total2"
+      app:layout_constraintTop_toBottomOf="@+id/valor1" />
+
+  <TextView
+      android:id="@+id/total4"
+      android:layout_width="102dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="52dp"
+      android:text="               "
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/total1" />
+
+  <TextView
+      android:id="@+id/cantidad4"
+      android:layout_width="102dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="52dp"
+      android:text="               "
+      app:layout_constraintEnd_toStartOf="@+id/valor2"
+      app:layout_constraintTop_toBottomOf="@+id/cantidad1" />
+
+  <TextView
+      android:id="@+id/nombre3"
+      android:layout_width="101dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="24dp"
+      android:text="               "
+      app:layout_constraintEnd_toStartOf="@+id/cantidad2"
+      app:layout_constraintHorizontal_bias="0.6"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/nombre1" />
+
+  <TextView
+      android:id="@+id/valor3"
+      android:layout_width="101dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="24dp"
+      android:text="               "
+      app:layout_constraintEnd_toStartOf="@+id/total2"
+      app:layout_constraintTop_toBottomOf="@+id/valor1" />
+
+  <TextView
+      android:id="@+id/total3"
+      android:layout_width="102dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="24dp"
+      android:text="               "
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/total1" />
+
+  <TextView
+      android:id="@+id/cantidad3"
+      android:layout_width="102dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="24dp"
+      android:text="               "
+      app:layout_constraintEnd_toStartOf="@+id/valor2"
+      app:layout_constraintTop_toBottomOf="@+id/cantidad1" />
+
+  <TextView
+      android:id="@+id/nombre2"
+      android:layout_width="101dp"
+      android:layout_height="wrap_content"
+      android:text="               "
+      app:layout_constraintEnd_toStartOf="@+id/cantidad2"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/nombre1" />
+
+  <TextView
+      android:id="@+id/valor2"
+      android:layout_width="101dp"
+      android:layout_height="wrap_content"
+      android:text="               "
+      app:layout_constraintEnd_toStartOf="@+id/total2"
+      app:layout_constraintTop_toBottomOf="@+id/valor1" />
+
+  <TextView
+      android:id="@+id/total2"
+      android:layout_width="102dp"
+      android:layout_height="wrap_content"
+      android:text="               "
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/total1" />
+
+  <TextView
+      android:id="@+id/cantidad2"
+      android:layout_width="102dp"
+      android:layout_height="wrap_content"
+      android:text="               "
+      app:layout_constraintEnd_toStartOf="@+id/valor2"
+      app:layout_constraintTop_toBottomOf="@+id/cantidad1" />
+
+  <TextView
+      android:id="@+id/cantidad1"
+      android:layout_width="102dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="24dp"
+      android:text="               "
+      app:layout_constraintEnd_toStartOf="@+id/valor1"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/valor1"
+      android:layout_width="101dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="24dp"
+      android:text="               "
+      app:layout_constraintEnd_toStartOf="@+id/total1"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/nombre1"
+      android:layout_width="101dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="24dp"
+      android:text="               "
+      app:layout_constraintEnd_toStartOf="@+id/cantidad1"
+      app:layout_constraintHorizontal_bias="0.6"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/total1"
+      android:layout_width="102dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="24dp"
+      android:text="               "
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <androidx.constraintlayout.widget.Guideline
+      android:id="@+id/guideline"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      app:layout_constraintGuide_begin="20dp" />
+
+  <androidx.constraintlayout.widget.Guideline
+      android:id="@+id/guideline2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      app:layout_constraintGuide_begin="20dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
